@@ -7,6 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
         { id: 5, name: 'Suprema', price: 4500 },
         { id: 6, name: 'Ñoquis', price: 3800 },
         { id: 7, name: 'Ravioles', price: 3800 },
+        { id: 8, name: 'Rabas', price: 13500 },
     ];
 
     const orderForm = document.getElementById('sectionForm');
@@ -59,7 +60,7 @@ document.addEventListener('DOMContentLoaded', function() {
             console.error('Error al enviar el pedido:', error);
         });
 
-        const confirmationMessage = `PEDIDO REALIZADO:\n\nNombre: ${orderDetails.name}\nDirección: ${orderDetails.address}\nTeléfono: ${orderDetails.phone}\nCorreo electrónico: ${orderDetails.email}\n\nElementos Seleccionados:\n${selectedMenuItems.map(item => `${item.name} (Cantidad: ${item.quantity})`).join('\n')}\n\nCOSTO TOTAL: $${totalCost.toFixed(2)}`;
+        const confirmationMessage = `PEDIDO REALIZADO:\n\nNombre: ${orderDetails.name}\nDirección: ${orderDetails.address}\nTeléfono: ${orderDetails.phone}\nCorreo electrónico: ${orderDetails.email}\nComentarios: ${orderDetails.comments}\n\nElementos Seleccionados:\n${selectedMenuItems.map(item => `${item.name} (Cantidad: ${item.quantity})`).join('\n')}\n\nCOSTO TOTAL: $${totalCost.toFixed(2)}`;
         alert(confirmationMessage);
     });
 });

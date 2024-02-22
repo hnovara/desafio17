@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <h2>Menú</h2>
+    <h2>COMO EN CASA</h2>
     <div class="menu-container">
         <div class="card">
             <img src="./img/hamburguesa.jpg" alt="Hamburguesa con papas fritas">
@@ -52,30 +52,31 @@
         </div>
     </div>
 
-    <h2>Realice su pedido</h2>
+    <h2>REALICE SU PEDIDO</h2>
     <form id="sectionForm">
-        <label for="name">Nombre:</label>
-        <input type="text" id="name"><br>
-        <label for="address">Dirección:</label>
-        <input type="text" id="address"><br>
-        <label for="phone">Teléfono:</label>
-        <input type="text" id="phone"><br>
-        <label for="email">Email:</label>
-        <input type="email" id="email"><br>
-        <label for="items">Plato:</label>
+        <label for="name">Nombre</label>
+        <input type="text" id="name">
+        <label for="address">Dirección</label>
+        <input type="text" id="address">
+        <label for="phone">Teléfono</label>
+        <input type="text" id="phone">
+        <label for="email">Email</label>
+        <input type="email" id="email">
+        <label id="itemlabel" for="items">Plato</label>
         <select id="items" multiple>
-            <option value="1">Hamburguesa</option>
-            <option value="2">Pizza</option>
-            <option value="3">Ensalada</option>
-            <option value="4">Milanesa</option>
-            <option value="5">Suprema</option>
-            <option value="6">Ñoquis</option>
-            <option value="7">Ravioles</option>
-        </select><br>
-        <label for="quantities">Cantidad:</label>
-        <input type="number" id="quantities"><br>
-        <label for="comments">Comentarios:</label><br>
-        <textarea id="comments"></textarea><br>
+            <option value="1">Hamburguesa con papas fritas</option>
+            <option value="2">Pizza de muzzarella</option>
+            <option value="3">Ensalada César</option>
+            <option value="4">Milanesa napolitana con pure</option>
+            <option value="5">Suprema napolitana con pure</option>
+            <option value="6">Ñoquis con salsa</option>
+            <option value="7">Ravioles con salsa</option>
+            <option value="8">Rabas</option>
+        </select>
+        <label for="quantities">Cantidad</label>
+        <input type="number" id="quantities">
+        <label for="comments">Comentarios</label>
+        <textarea id="comments"></textarea>
         <button type="submit">Enviar pedido</button>
     </form>
 
