@@ -1,0 +1,42 @@
+Desarrollar una aplicación que permita a los usuarios realizar un pedido de comida en línea. La aplicación debe permitir al usuario seleccionar los artículos de menú disponibles y enviar el pedido al restaurante.
+
+Lógica de negocio:
+
+* El usuario selecciona los artículos del menú disponibles y proporciona información de contacto y de envío para realizar un pedido.
+* La aplicación valida los campos de entrada del formulario.
+* La aplicación calcula el costo total del pedido.
+* La aplicación envía el pedido al restaurante.
+
+Datos de entrada:
+
+* Nombre del usuario
+* Dirección de entrega
+* Detalles del pedido (artículos seleccionados, cantidad, comentarios)
+* Información de contacto (número de teléfono, correo electrónico)
+
+Datos de salida:
+
+* Confirmación del pedido (con el número de pedido, detalles de los artículos seleccionados y el costo total).
+
+Requerimientos funcionales:
+
+* La aplicación debe mostrar una lista de artículos del menú disponibles para seleccionar.
+* La aplicación debe permitir al usuario seleccionar varios artículos del menú.
+* La aplicación debe validar los campos de entrada del formulario antes de enviar el pedido.
+* La aplicación debe calcular el costo total del pedido.
+* La aplicación debe permitir al usuario enviar el pedido al restaurante.
+
+Requerimientos no funcionales:
+
+* La aplicación debe ser fácil de usar e intuitiva.
+* La aplicación debe ser sensible y funcionar en diferentes dispositivos y tamaños de pantalla.
+
+Pasos para resolver el ejercicio:
+
+1.Definir los objetos para representar los artículos del menú con sus atributos, como nombre, descripción y precio.
+2.Crear una lista de artículos del menú disponibles para seleccionar.
+3.Capturar los eventos de selección del usuario y almacenar la información del pedido en variables.
+4.Validar los campos de entrada del formulario antes de enviar el pedido.
+5.Calcular el costo total del pedido.
+6.Enviar el pedido al restaurante.
+7.Mostrar una confirmación del pedido con los detalles del pedido y el costo total.
