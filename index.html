@@ -8,6 +8,85 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
+    <h2>Menú</h2>
+    <div class="menuContainer">
+        <div class="card">
+            <img src="./img/hamburguesa.jpg" alt="Hamburguesa completa con papas fritas">
+            <p>Hamburguesa completa con papas fritas</p>
+            <span>$6000</span>
+        </div>
+        <div class="card">
+            <img src="./img/pizza.jpeg" alt="Pizza de muzzarella">
+            <p>Pizza de muzzarella</p>
+            <span>$12000</span>
+        </div>
+        <div class="card">
+            <img src="./img/ensalada.jpg" alt="Ensalada César">
+            <p>Ensalada César</p>
+            <span>$3500</span>
+        </div>
+        <div class="card">
+            <img src="./img/milanesa.jpg" alt="Milanesa napolitana con pure">
+            <p>Milanesa napolitana con pure</p>
+            <span>$4500</span>
+        </div>
+        <div class="card">
+            <img src="./img/suprema.jpg" alt="Suprema napolitana con pure"> 
+            <p>Suprema napolitana con pure</p>
+            <span>$4500</span>
+        </div>
+        <div class="card">
+            <img src="./img/ñoquis.jpg" alt="Ñoquis con salsa"> 
+            <p>Ñoquis con salsa</p>
+            <span>$3800</span>
+        </div>
+        <div class="card">
+            <img src="./img/ravioles.jpg" alt="Ravioles con salsa"> 
+            <p>Ravioles con salsa</p>
+            <span>$3800</span>
+        </div>
+    </div>
+    <form id="sectionForm" class="sectionForm">
+        <h2>Realizar Pedido</h2>
+        <div class="formGroup">
+            <label for="name">Nombre</label>
+            <input type="text" id="name" name="name">
+        </div>
+        <div class="formGroup">
+            <label for="address">Dirección de entrega</label>
+            <input type="text" id="address" name="address">
+        </div>
+        <div class="formGroup">
+            <label for="phone">Número de teléfono</label>
+            <input type="tel" id="phone" name="phone">
+        </div>
+        <div class="formGroup">
+            <label for="email">Correo electrónico</label>
+            <input type="email" id="email" name="email">
+        </div>
+        <div class="formGroup">
+            <label for="items">Artículos del menú</label>
+            <select id="items" name="items" multiple>
+                <option value="1">Hamburguesa completa con papas fritas</option>
+                <option value="2">Pizza de muzarella</option>
+                <option value="3">Ensalada César</option>
+                <option value="4">Milanesa napolitana con pure</option>
+                <option value="5">Suprema napolitana con pure</option>
+                <option value="6">Ñoquis con salsa</option>
+                <option value="7">Ravioles con salsa</option>
+            </select>
+        </div>
+    
+        <div class="formGroup">
+            <label for="comments">Comentarios adicionales</label>
+            <textarea id="comments" name="comments" rows="4"></textarea>
+        </div>
+    
+        <div class="containerButton">
+            <button type="submit">Enviar Pedido</button>
+        </div>
+    </form>
+
 
     <script src="./js/index.js"></script>
 </body>
